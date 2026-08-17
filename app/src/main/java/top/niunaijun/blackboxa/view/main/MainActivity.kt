@@ -1,5 +1,6 @@
 package top.niunaijun.blackboxa.view.main
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -96,6 +97,13 @@ class MainActivity : LoadingActivity() {
             // This method is called after app operations complete
         } catch (e: Exception) {
             Log.e(TAG, "Error in scanUser: ${e.message}")
+        }
+    }
+
+    companion object {
+        fun start(context: Context) {
+            val intent = Intent(context, MainActivity::class.java)
+            context.startActivity(intent)
         }
     }
 }
