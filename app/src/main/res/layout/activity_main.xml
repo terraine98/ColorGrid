@@ -42,6 +42,7 @@
                 android:layout_marginEnd="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -53,6 +54,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -63,6 +65,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
         </LinearLayout>
@@ -84,6 +87,7 @@
                 android:layout_marginEnd="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -95,6 +99,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -105,6 +110,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
         </LinearLayout>
@@ -126,6 +132,7 @@
                 android:layout_marginEnd="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -137,6 +144,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -147,6 +155,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
         </LinearLayout>
@@ -168,6 +177,7 @@
                 android:layout_marginEnd="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -179,6 +189,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -189,6 +200,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
         </LinearLayout>
@@ -209,6 +221,7 @@
                 android:layout_marginEnd="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -220,6 +233,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
             <Button
@@ -230,6 +244,7 @@
                 android:layout_marginStart="4dp"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@android:color/white"
                 android:background="@drawable/btn_bg" />
 
         </LinearLayout>
