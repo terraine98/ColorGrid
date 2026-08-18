@@ -21,9 +21,10 @@ jobs:
           cache: gradle
 
       - name: Accept Android SDK Licenses
-        run: |
-          yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses      - name: Grant execute permission for gradlew
-       run: chmod +x gradlew
+        run: yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
