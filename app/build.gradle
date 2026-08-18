@@ -5,7 +5,7 @@ plugins {
 
 android {
 
-    namespace 'top.niunaijun.blackbox'
+    namespace 'top.niunaijun.blackboxa'
     compileSdk rootProject.ext.compileSdkVersion
     ndkVersion = "29.0.13846066"
     defaultConfig {
