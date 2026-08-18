@@ -22,13 +22,8 @@ jobs:
 
       - name: Accept Android SDK Licenses
         run: |
-          mkdir -p $ANDROID_SDK_ROOT/licenses
-          echo "24333f8a43b682574c759a7f0f1f183d2cb40e0d" > $ANDROID_SDK_ROOT/licenses/android-sdk-license
-          echo "84831b9409646a918e30573bab4c9c91346d8abd" >> $ANDROID_SDK_ROOT/licenses/android-sdk-license
-          echo "d56f5187479451eabf01fb78af6dfcb131a648fa" >> $ANDROID_SDK_ROOT/licenses/android-sdk-license
-          echo "3da683f12fa3d04a97f84717a9c36a41a143e64f" > $ANDROID_SDK_ROOT/licenses/ndk-license
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+          yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses      - name: Grant execute permission for gradlew
+       run: chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
